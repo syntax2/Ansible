@@ -1,2 +1,15 @@
----
 # vars file for OS_Hardening
+---
+unused_services:
+  - cups
+  - xinetd
+  - apache2
+  - mysql
+  - postgresql
+  - vsftpd
+  - telnet
+  - ssh
+  - bind9
+  - postfix
+  - samba
+

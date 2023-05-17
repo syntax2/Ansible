@@ -1,0 +1,14 @@
+- name: My Playbook
+  hosts: all
+  become: true
+  roles:
+    - OS_Hardening
+  tasks:
+          # - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/update.yml
+          # - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/firewall.yml
+          # - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/kernel.yml
+          # - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/openssh.yml
+          #    - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/unused_service.yml
+    - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/unused_network.yml
+   
+
