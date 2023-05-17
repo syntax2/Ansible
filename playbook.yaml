@@ -17,4 +17,7 @@
           # - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/17_perm.yml
       #  - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/18_sudo.yml
       #  - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/19_world.yml
-    - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/20_unowned.yml
+      # - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/20_unowned.yml
+          #  - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/21_writable.yml
+     - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/22_fail2ban.yml
+     - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/23_AIDE.yml
