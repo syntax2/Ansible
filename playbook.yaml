@@ -24,4 +24,6 @@
           #  - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/22_fail2ban.yml
           # - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/23_AIDE.yml
        #  - include_tasks: /home/ashishkadian239/iitb/Ansible/Web_Server_Application_Hardening/tasks/24_webserver.yml
-     - include_tasks: /home/ashishkadian239/iitb/Ansible/Web_Server_Application_Hardening/tasks/36.yml
+     - include_tasks: /home/ashishkadian239/iitb/Ansible/Database_Server_Hardening/tasks/39_safe_mode.yml
+
+
