@@ -3,9 +3,11 @@
   become: true
   roles:
     - OS_Hardening
+    - Web_Server_Application_Hardening
+    - Database_Server_Hardening
   tasks:
           # - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/update.yml
-          # - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/firewall.yml
+          # - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/*.yml
           # - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/kernel.yml
           # - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/openssh.yml
           #    - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/unused_service.yml
@@ -19,5 +21,7 @@
       #  - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/19_world.yml
       # - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/20_unowned.yml
           #  - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/21_writable.yml
-     - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/22_fail2ban.yml
-     - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/23_AIDE.yml
+          #  - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/22_fail2ban.yml
+          # - include_tasks: /home/ashishkadian239/iitb/Ansible/OS_Hardening/tasks/23_AIDE.yml
+       #  - include_tasks: /home/ashishkadian239/iitb/Ansible/Web_Server_Application_Hardening/tasks/24_webserver.yml
+     - include_tasks: /home/ashishkadian239/iitb/Ansible/Web_Server_Application_Hardening/tasks/36.yml
