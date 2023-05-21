@@ -1,6 +1,6 @@
 **Project Name: Security Compliance Project (SecureOps-Ansible)**
 
-This project aims to ensure security compliance for IT Bombay Security by implementing various hardening activities on different servers and web applications.
+This project aims to ensure security compliance for IIT Bombay Security by implementing various hardening activities on different servers and web applications.
 **The project structure consists of four roles, each corresponding to a specific activity:**
 Database_Server_Hardening
 OS_Hardening
