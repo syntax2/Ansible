@@ -1,15 +1,18 @@
 **Project Name: Security Compliance Project (SecureOps-Ansible)**
+
 This project aims to ensure security compliance for IT Bombay Security by implementing various hardening activities on different servers and web applications.
 **The project structure consists of four roles, each corresponding to a specific activity:**
 Database_Server_Hardening
 OS_Hardening
 Web_Application_Hardening_Activities
 Web_Server_Application_Hardening
+
 **File Structure**
 **Database_Server_Hardening/:** Contains the scripts and configurations related to hardening activities for the database server.
 **OS_Hardening**/: Includes the necessary files for hardening the operating system of the servers.
 **Web_Application_Hardening_Activities**/: Contains the scripts and configurations for hardening web applications.
 **Web_Server_Application_Hardening**/: Includes the necessary files for hardening the web server.
+
 **Usage**
 To use this project, follow the steps below:
 
@@ -19,6 +22,7 @@ Open the root directory of the project.
 Run the following command in the terminal:
 `ansible-playbook -i inventory playbook.yaml`
 Sit back and relax while Ansible performs the necessary hardening activities.
+
 **Project Overview**
 This project focuses on ensuring security compliance by implementing a set of hardening activities for different server components. The activities performed include the following:
 
@@ -45,6 +49,7 @@ This project focuses on ensuring security compliance by implementing a set of ha
 20. Setting sticky bit permission on world-writable directories.
 21. Configuring Intrusion Prevention System (IPS) like Fail2Ban.
 22. Configuring File System Integrity Checking like AIDE.
+
 **Web Server Application Hardening Activities**
 1. Updating the web server with the latest security patches.
 2. Running the web server as a non-root user.
@@ -58,6 +63,7 @@ This project focuses on ensuring security compliance by implementing a set of ha
 10. Removing default web server content.
 11. Configuring web server syslog facility.
 12. Configuring SSL/TLS securely.
+
 **Database Server Hardening Activities**
 1. The Database Server Hardening activities focus on securing the database server by implementing various measures. These activities include:
 2. Update Database Server: Ensure the database server is updated with the latest security patches.
@@ -67,9 +73,9 @@ This project focuses on ensuring security compliance by implementing a set of ha
 6. Remove Default Databases and Users: Remove default databases and users from the database server.
 7. No Wildcard Hostnames: Ensure no users have wildcard hostnames in the database server.
 8. Disable Command History: Disable command history in the database server.
+
 **Web Application Hardening Activities**
 1. The Web Application Hardening activities aim to enhance the security of web applications. The following measures are implemented:
-2. 
 3. Update Applications: Update applications and their 3rd party plugins, codes, etc., with the latest security patches.
 4. Input Parameter Validation: Implement proper validation on all input parameters in both client and server sides.
 5. HTTP Security Headers: Implement proper HTTP Security Headers in the application.
